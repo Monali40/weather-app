@@ -34,6 +34,10 @@ Go to this link use key from : https://home.openweathermap.org/api_keys
 
 used this Built-in API request by city name - https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
 
+If you want you can also use city, state, country API
+
+https://api.openweathermap.org/data/2.5/weather?q={city name},{state code},{country code}&appid={API key}
+
 Edit above linke like this using key and add city name also add units= metric for: converts the temperature to Celsius instead of the default Kelvin in the OpenWeatherMap API response
 
 Eg - https://api.openweathermap.org/data/2.5/weather?q=Fairborn&appid=b789d93e68fa1a6307e68a528945129e&units=metric
